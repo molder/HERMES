@@ -1,0 +1,16 @@
+﻿# Runtime logs and process files
+docs/logs/*.log
+docs/logs/*.pid
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Local operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
